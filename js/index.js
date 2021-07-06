@@ -11,7 +11,7 @@ let pattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
 function formValidator(event) {
     
-    //event.preventDefault();
+   
     event.preventDefault();
 
     // start with the 2 empty buckets at the beginning
