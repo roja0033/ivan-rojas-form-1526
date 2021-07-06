@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <section class="box">
+    
+            <form id="form">
+            <legend>Form Assignment</legend>
+            <br/><br/><label class="fullname"for="fullname">Full Name</label><br/>
+            <input type="text" id="fullname" name="fullname" value=""><br/>
+
+            <label class="email"for="email">Email</label><br/>
+            <input type="email" id="email" name="email" value=""><br/>
+            
+
+            <label class="message"for="message">Message</label><br/>
+            <textarea id="message" name="message"></textarea><br/>
+            <input type="submit" id="submit-button" onclick = "formValidator()" name="submit-button" value="Submit">
+            </form><br/>
+
+      </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
